@@ -5,7 +5,7 @@ const path = require("path");
 
 const notesRoutes =  require ("./notesRoutes.js");
 const connectDB = require("./config/db.js");
-const rateLimiter = require("./middlewares/ratelimiter.js");
+const rateLimiter = require("./middlewares/rateLimiter.js");
 
 
 dotenv.config();
